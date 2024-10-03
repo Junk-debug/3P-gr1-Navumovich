@@ -1,8 +1,14 @@
-html {
-  background-color: black;
+:root {
+  --background: #4e0909;
+  --foreground: #fff;
 }
 
 h1 {
   font-family: "Courier New", Courier, monospace;
-  color: white;
+  color: var(--background);
+}
+
+p {
+  color: var(--foreground);
+  background-color: var(--background);
 }
